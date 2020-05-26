@@ -11,8 +11,8 @@ username = input("username:")
 # password = getpass.getpass("password:")
 password = input("password:")
 
-if username == db_name and password == db_passwd :
-    print("用户：%s，登录成功" %(username))
+if username == db_name and password == db_passwd:
+    print("用户：%s，登录成功" % username)
 
-else :
+else:
     print("Invalid account password!")
